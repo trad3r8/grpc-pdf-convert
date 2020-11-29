@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package="pdfconvservice;pdfconvservice";
+package pdfcompose;
+
+message ConvertRequest {
+  repeated Image image = 1;
+}
+
+message ConvertResponse {
+  bytes pdf = 1;
+}
+
+service ConvertService {
+  rpc Convert(ConvertRequest) returns (ConvertResponse){};
+}
+
+message Image {
+  bytes Content = 1;
+}
