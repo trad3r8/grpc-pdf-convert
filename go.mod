@@ -1,3 +1,3 @@
-module github.com/trad3r/grpc-pdf-convert
+module github.com/trad3r8/grpc-pdf-convert
 
 go 1.14
