@@ -1,9 +1,3 @@
-module github.com/TRAD3R/grpcpdfconvert
+module github.com/trad3r/grpc-pdf-convert
 
 go 1.14
-
-require (
-	github.com/golang/protobuf v1.4.3
-	google.golang.org/grpc v1.33.2
-	google.golang.org/protobuf v1.25.0
-)
